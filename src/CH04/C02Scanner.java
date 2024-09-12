@@ -1,6 +1,5 @@
 package CH04;
 
-import java.nio.ReadOnlyBufferException;
 import java.util.Scanner;
 
 public class C02Scanner {
@@ -31,7 +30,7 @@ public class C02Scanner {
 //		System.out.println("문자열 : " + str2);
 
 		System.out.print("정수값 입력 : ");
-		int n1 = sc.nextInt();
+		double n1 = sc.nextInt();
 		System.out.println("정수값 :  " + n1);
 		
 		System.out.print("실수값 입력 : ");
