@@ -30,7 +30,7 @@ public class C01basic {
 		
 		//대입연산자
 		//LV = RV;
-		//공간 = 값(우선 처리);		
+		//공간 = 값(우선 처리);		 
 		
 		
 		
@@ -59,7 +59,7 @@ public class C01basic {
 		
 		
 		////논리연산자 
-		//AND 연산자	&& :  (true)&&(true) = true , 그외는 거짓
+		//ADN 연산자	&& :  (true)&&(true) = true , 그외는 거짓
 		//- &&기호를 기준으로 왼/오른쪽 둘다 true 이면 true
 		//OR 연산자	|| :  t||t = t, t||f =t, f||t=t, f||f=f
 		//- ||기호를 기준으로 왼/오른쪽 중 하나만 true 이면 true
@@ -98,7 +98,7 @@ public class C01basic {
 		////증감연산자
 		//++a(--a) : 전치 연산자 : 먼저 값 1증가(1감소) 이후 다른 연산자 처리
 		//a++(a--) : 후치 연산자 : 다른 연산자 처리 먼저 한 후 1증가(1감소)
-		int a = 10, b = 10, c, d=0;
+//		int a = 10, b = 10, c, d=0;
 		
 //		c = --a + b++;
 //		d = a-- + ++b;
@@ -112,15 +112,31 @@ public class C01basic {
 		////삼항연산자
 		// (조건식)? 참인경우 실행코드 : 거짓인경우 실행코드;
 		
-		int score = 85;
-		char grade = (score > 90) ? 'A' : ((score > 80) ? 'B' : 'C');
-		System.out.println(score + "점은 " + grade + "등급입니다.");
+//		int score = 85;
+//		char grade = (score > 90) ? 'A' : ((score > 80) ? 'B' : 'C');
+//		System.out.println(score + "점은 " + grade + "등급입니다.");
 		
+//		Scanner sc = new Scanner(System.in);
+//		
+//		System.out.print("국어 점수 : ");
+//		int go = sc.nextInt();
+//		
+//		System.out.println("영어 점수 : ");
+//		int eng = sc.nextInt();
+//		
+//		System.out.println("수학 점수 : ");
+//		int ma = sc.nextInt();
+//
+//		int chong = (ma+eng+ma) / 3;
+//		
+//		String is = (go >= 40 && eng >= 40 && ma >= 40) ? "합격입니다 평균 점수는 : " + chong : "불합격입니다 평균점수는 : " + chong;
+//			
+//		System.out.println("결과 : " + is);
+//		
+//		sc.close();
+	
+			
+	
 		
 	}
 }
-
-
-
-
-

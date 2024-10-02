@@ -17,9 +17,9 @@ public class C02PercentArith {
 
 //		Scanner sc = new Scanner(System.in);
 //		int num1 = sc.nextInt();
-		
-		//String result =  (num1%2==0)?"짝수입니다":"홀수입니다";
-		//System.out.println("결과 : " + result);
+//		
+//		String result =  (num1%2==0)?"짝수입니다":"홀수입니다";
+//		System.out.println("결과 : " + result);
 
 		// 02 배수 구하기
 
@@ -69,20 +69,44 @@ public class C02PercentArith {
 //		System.out.println("왼쪽 끝 2자리 : " + (num / 1000));
 //		System.out.println("왼쪽 끝 3자리 : " + (num / 100));
 //		System.out.println("왼쪽 끝 4자리 : " + (num / 10));
-		
-		//정수 하나를 입력받아 거꾸로 저장해보세요(반복문법 이후 풀어보기)%,/연산 동시이용할 것
-		//예
-		
+//		int num = 24678;
+//		num %= 10;
+//		
+//		System.out.println(num);
+//		
+//		int num2 = 246783214;
+//		num2 /= 10;
+//		System.out.println(num2);
+
+		// 정수 하나를 입력받아 거꾸로 저장해보세요(반복문법 이후 풀어보기)%,/연산 동시이용할 것
+		// 예
+
 //		입력: 1234
 //		저장
 //		int reverse = 4321;
 //		출력 : 4321
+
+		Scanner sc = new Scanner(System.in);
+
+		System.out.println("입력 : ");
+		int val = sc.nextInt();
+		int sum2 = 0;
+
+		while (val > 0) { 
+			int sum = val % 10; 
+			
+			
+			
+			
+		 	sum2 = (sum2 * 10) + sum; 
+			System.out.println("sum2 : " + sum2);
+			
+			val /= 10;
+			
+		}
+		System.out.println("최종 : " + sum2);
 		
-		
-		
-		
-		
-		
+
 
 	}
 
